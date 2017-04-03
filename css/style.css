@@ -1,0 +1,117 @@
+/*general css*/
+body{
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:14px;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+h1,h3,p,a{
+  padding:0;
+  margin:0;
+}
+
+article{
+  margin-top:50px;
+}
+
+article h3{
+  padding-left:30px;
+  font-weight:bold;
+}
+
+article p{
+  text-align: justify;
+  padding:20px 30px;
+  font-size:16px;
+  letter-spacing:0.05em;
+}
+
+hr{
+  height:1px;
+  background-color:lightgrey;
+  margin-top:50px;
+}
+/*end general css*/
+
+/*custom css*/
+.main_body{
+  background-color:#eee;
+  border-radius:10px;
+}
+
+/*artist name, slogan, date, artist image*/
+.artist_name h1{
+  font-size:80px;
+  margin-top:200px;
+
+}
+
+.slogan{
+  text-transform:uppercase;
+  padding-top:5px;
+  padding-bottom:10px;
+}
+
+.slogan, .date{
+  font-size:15px;
+  font-style:italic;
+}
+
+.artist_img{
+  float:right;
+  border-radius:5px;
+  margin:20px 0px 20px 20px;
+}
+
+/*gallery & caption*/
+.caption{
+  padding:5px;
+}
+
+.caption p{
+  font-size:14px;
+  text-align: left;
+  letter-spacing: normal;
+  padding:0;
+}
+
+.caption p:hover{
+  color:#3498DB;
+}
+
+.gallery_box{
+  padding:20px 30px;
+}
+
+.gallery{
+  margin-top: 50px;
+}
+
+/*book lists*/
+.book_list{
+  list-style:decimal;
+  padding-top:20px;
+  padding-left:60px;
+}
+
+.book_list li{
+  padding-bottom:10px;
+}
+
+/*artist wiki*/
+.artist_wiki{
+  margin-bottom: 20px;
+}
+
+.artist_wiki h3{
+  font-weight: normal;
+}
+
+/*footer*/
+.footer{
+  margin-bottom: 20px;
+}
